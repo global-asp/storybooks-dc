@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-dc/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-dc/stories/am/0315/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks D.C." href="/storybooks-dc">
-	<script src="/storybooks-dc/js/sbc.js"></script>
+	<script src="/storybooks-dc/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,7 +47,7 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a></div>
+        <div class="float-right"><span class="tooltip tooltip-left" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Download PDF</a></span></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
@@ -88,12 +86,13 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-dc/css/language.svg" alt="Language"></span> <a href="/storybooks-dc/stories/am">Amharic</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-dc/css/level.svg" alt="Level"></span> <a href="/storybooks-dc/stories/am/level3">Level 3</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-dc/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
 	ሳኪማ ከቤተሰቦቹና ከ4 ዓመት ታላቅ እህቱ ጋር ይኖራል። የሚኖሩት ባንድ ሃብታም ሰውዬ መሬት ላይ ነው። ባለሳር ክዳን ጎጇቸው በመደዳ ከበቀሉ ዛፎች ማዶ ትገኛለች።
@@ -424,7 +423,7 @@ But his parents dismissed him.
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	ነገር ግን፣ሳኪማ ተስፋ አልቆረጠም። ትንሷ እህቱም ትረዳዋለች። ‹‹የሳኪማ ዜማዎች በራበኝ ጊዜ ያረጋጉኛል። ሃብታሙን ሰውዬም እንዲሁ ያረጋጉታል።››
+	ነገር ግን፣ ሳኪማ ተስፋ አልቆረጠም። ትንሷ እህቱም ትረዳዋለች። ‹‹የሳኪማ ዜማዎች በራበኝ ጊዜ ያረጋጉኛል። ሃብታሙን ሰውዬም እንዲሁ ያረጋጉታል።››
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -598,7 +597,7 @@ They had found the rich man’s son beaten up and left on the side of the road.
 <div id="text19" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/19.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	ልጁን ደግሞ ስላየው ሃብታሙ ሰውዬ በጣም ተደሰተ። ምቾት ስለሰጠው ሳኪማ ተደሰተ። ከዚያ ልጁንና ሳኪማን ወደ ሃኪም ቤት ወሰዳቸው፤ሳኪማም እንደገና አይኑ ማዬት ቻለ።
+	ልጁን ደግሞ ስላየው ሃብታሙ ሰውዬ በጣም ተደሰተ። ምቾት ስለሰጠው ሳኪማ ተደሰተ። ከዚያ ልጁንና ሳኪማን ወደ ሃኪም ቤት ወሰዳቸው፤ ሳኪማም እንደገና አይኑ ማዬት ቻለ።
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -626,14 +625,15 @@ He took his son and Sakima to hospital so Sakima could regain his sight.
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Written by: Ursula Nafula</h5>
-		<h5>Illustrated by: Peris Wachuka</h5>
-		<h5>Translated by: Dawit Girma</h5>
-		<h5>Language: <a href="/storybooks-dc/stories/am">Amharic</a></h5>
-		<h5><a href="/storybooks-dc/stories/am/level3">Level 3</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5><span class="colophon-heading">Written by:</span> Ursula Nafula</h5>
+		<h5><span class="colophon-heading">Illustrated by:</span> Peris Wachuka</h5>
+		<h5><span class="colophon-heading">Translated by:</span> Dawit Girma</h5>
+		<h5><span class="colophon-heading">Language:</span> <a href="/storybooks-dc/stories/am">Amharic</a></h5>
+		<h5><span class="colophon-heading">Level:</span> <a href="/storybooks-dc/stories/am/level3">Level 3</a></h5>
+		<h5><span class="colophon-heading">Source:</span> <a href="https://africanstorybook.org/reader.php?id=13244" target="_blank">Sakima's song</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
@@ -651,10 +651,9 @@ He took his son and Sakima to hospital so Sakima could regain his sight.
 </div>
 <div>
 <h5>Options</h5>
-	<a class="btn btn-lg" href="/storybooks-dc/stories/am" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
+	<a class="btn btn-lg" href="/storybooks-dc/stories/am" class="button">Back to stories list</a> <span class="tooltip tooltip-top" data-tooltip="PDF download for this story is currently not available."><a class="btn btn-lg disabled">Download PDF</a></span>
 <br><br>
 </div>
-
 
 
     </div>
